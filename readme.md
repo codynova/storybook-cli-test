@@ -1,6 +1,6 @@
 # storybook-cli-test
 
-Minimum viable reproduction of an issue I'm facing when attempting to run Storybook via CLI
+Minimum viable reproduction of an issue I'm facing when attempting to consume stories that are outside the Storybook project root
 
 
 
