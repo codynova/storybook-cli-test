@@ -4,8 +4,9 @@ Minimum viable reproduction of an issue I'm facing when attempting to run Storyb
 
 
 
-### The Error
+### The Errors
 
+In the terminal:
 ```bash
 WARNING in ../stories/Test.stories.jsx 6:4
 Module parse failed: Unexpected token (6:4)
@@ -15,6 +16,11 @@ You may need an appropriate loader to handle this file type, currently no loader
 >     <button>
 |         Click Me
 |     </button>
+```
+
+In the browser console:
+```
+Ucaught ReferenceError: exports is not defined at Module../node_modules/react-color/es/helpers/color.js
 ```
 
 
