@@ -20,8 +20,8 @@ try {
 
     storybookProcess = spawn(
         path.resolve(__dirname, 'node_modules/.bin/start-storybook'),
-        [ '-p', '64680', '--no-dll' ],
-        { shell: true, cwd: __dirname },
+        [ '-p', '64680', '--no-dll', '-c', path.resolve(__dirname, '.storybook') ],
+        { shell: true },
     )
     
     storybookProcess.stdout.on('data', (data) => console.log(data.toString()))
