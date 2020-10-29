@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default { title: 'Test' }
+export default { title: 'Remote' }
 
-export const test1 = () => (
+export const remote = () => (
     <button>
-        Click Me
+        Remote Button
     </button>
 )

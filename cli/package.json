@@ -1,6 +1,6 @@
 {
-  "name": "storybook-cli-test",
-  "version": "0.0.1",
+  "name": "@i/storybook-cli-test",
+  "version": "0.0.2",
   "description": "Testing execution of Storybook via CLI",
   "main": "index.js",
   "bin": {
